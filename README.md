@@ -83,27 +83,34 @@ LeaderBoard is a web application that utilizes an API to display and track leade
 <!-- GETTING STARTED -->
 ## 💻 Getting Started <a name="getting-started"></a>
 
-Open this site in your browser and enjoy.
+You can follow the next steps to review the code or to run the project locally:
+
+1. clone this repo (`git clone https://github.com/jicamargo/leaderboard.git`)
+2. cd your-repo
+3. npm install
+4. npm run build
+5. npm start
 
 ### Prerequisites
   In order to run this project you need:
-  A modern browser for like Mozilla, Chrome, Edge, etc. that supports HTML5 and CSS
+  -A modern browser for like Mozilla, Chrome, Edge, etc. that supports HTML5 and CSS
+  -A code editor like VSCode, Atom, SublimeText, etc.
 
 ### Setup
-  This application runs directly (it does not need any setup process)
+  Follow the steps above to setup this project in your local environment
 
 ### Install
   Install this project with:
   This application runs directly (it does not need any install process)
 
 ### Usage
-  Enter to index.html web page
+  Enter to index.html created in dist folder
 
 ### Run tests
   No tests needed, you can enter directly to index.html
 
 ### Deployment
-  No deployment needed, you can enter directly to index.html
+  No deployment needed, you can enter directly to index.html in dist folder
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,6 +141,7 @@ If you like this project, please give a ⭐️ (Thank you)
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+- I would like to thank Microverse for this learning opportunity.
 - [Microverse team]()https://microverse.org/
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
