@@ -65,7 +65,7 @@ LeaderBoard is a web application that utilizes an API to display and track leade
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Futur Features <a name="future-features"></a> 
+## 🔭 Future Features <a name="future-features"></a> 
 
 - **External API Call**
 - **Preserve the information in API backend**
