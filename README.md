@@ -16,6 +16,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
   - [⭐️ Key Features ](#️-key-features-)
+  - [🔭 Future Features ](#️-future-features-)
   - [🚀 Live Demo](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -61,6 +62,11 @@ LeaderBoard is a web application that utilizes an API to display and track leade
 ## ⭐️ Key Features <a name="key-features"></a> 
 
 - **Minimalistic layout**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Futur Features <a name="future-features"></a> 
+
 - **External API Call**
 - **Preserve the information in API backend**
 
