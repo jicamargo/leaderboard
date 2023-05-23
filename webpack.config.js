@@ -29,5 +29,5 @@ module.exports = {
         use: ['svg-url-loader'],
       },
     ],
-  }
+  },
 };
