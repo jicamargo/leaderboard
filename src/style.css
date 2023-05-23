@@ -12,13 +12,13 @@ h2 {
 }
 
 .lb-container {
-  display: flex;  
-  padding: 2rem; 
+  display: flex;
+  padding: 2rem;
   margin: auto;
 }
 
 .scores-section {
-  width: 50%; 
+  width: 50%;
 }
 
 .ul-scores {
@@ -27,6 +27,5 @@ h2 {
 
 form {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
-

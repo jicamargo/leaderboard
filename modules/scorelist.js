@@ -8,9 +8,8 @@ const scoreListArray = [
   { name: 'Daniel', score: 82 },
   { name: 'Isabella', score: 96 },
   { name: 'William', score: 79 },
-  { name: 'Ava', score: 90 }
+  { name: 'Ava', score: 90 },
 ];
-
 
 const scoreList = (lbContainer) => {
   const newSection = document.createElement('section');
@@ -27,7 +26,6 @@ const scoreList = (lbContainer) => {
   list.innerHTML = scoreListArray.map((score) => `
         <li>${score.name}: ${score.score}</li>                        
     `).join('');
-}
-
+};
 
 export default scoreList;

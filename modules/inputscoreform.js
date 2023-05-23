@@ -8,15 +8,13 @@ const inputScoreForm = (lbContainer) => {
   `;
 
   lbContainer.appendChild(newSection);
-  
-
 
   const form = document.createElement('form');
 
   const nameInput = createInput('text', 'name', 'Your name');
   const scoreInput = createInput('text', 'score', 'Your Score');
   const scoreBtn = document.createElement('button');
-  scoreBtn.innerText = "Submit";
+  scoreBtn.innerText = 'Submit';
   scoreBtn.classList.add('submit-btn');
 
   form.append(nameInput, scoreInput, scoreBtn);

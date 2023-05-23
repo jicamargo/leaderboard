@@ -1,5 +1,4 @@
 import './style.css';
-import pageLayout from '../modules/pagelayout';
+import pageLayout from '../modules/pagelayout.js';
 
 pageLayout();
-
