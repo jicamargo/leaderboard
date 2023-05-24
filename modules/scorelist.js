@@ -1,8 +1,7 @@
 import refreshScores from './refreshscores.js';
 
-const scoreList = (lbContainer) => {
+const scoreList = (lbContainer, game) => {
   const newSection = document.createElement('section');
-  const refreshBtn = null;
 
   newSection.classList.add('scores-section');
   newSection.innerHTML = `
@@ -12,9 +11,9 @@ const scoreList = (lbContainer) => {
   `;
 
   lbContainer.appendChild(newSection);
-  refreshBtn = document.getElementById('refreshBtn');
-  refreshBtn.addEventListener('click', () => {refreshScores();});
-  refreshScores();
+  const refreshBtn = document.getElementById('refreshBtn');
+  refreshBtn.addEventListener('click', () => {refreshScores(game);});
+
 };
 
 export default scoreList;

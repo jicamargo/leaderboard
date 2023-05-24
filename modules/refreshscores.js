@@ -1,16 +1,13 @@
-import game from './game.js'; 
-
-const currentGame = game;
-
-const scoreListArray = game.readScores();
-
-const refreshScores = () => {
+const refreshScores = async (game) => {
   const list = document.getElementById('ul-scores');
-  list.innerHTML = scoreListArray.map((score) => `
-        <li>${score.name}: ${score.score}</li>
-    `).join('');  
+  try {
+    const scoreListArray = await game.readScores();
+
+    list.innerHTML = scoreListArray.result.map((score) => `
+      <li>${score.user}: ${score.score}</li>`).join('');
+  } catch (error) {
+    list.innerHTML = '<li>There was an error refreshing the scores</li>';
+  }
 };
-
-
 
 export default refreshScores;

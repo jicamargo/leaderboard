@@ -1,8 +1,14 @@
-import game from './game.js'
-import refreshScores from './refreshscores.js'
+import refreshScores from './refreshscores.js';
 
-const addScore = (event, name, score) => {
+const addScore = async (event, name, score, game) => {
   event.preventDefault();
-  game.addScore(name, score);
-  refreshScores();
-}
+  if (name.value === '' || score.value === '') {
+    return;
+  }
+  await game.addScore(name.value, score.value);
+  refreshScores(game);
+  name.value = '';
+  score.value = '';
+};
+
+export default addScore;
