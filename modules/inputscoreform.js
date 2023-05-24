@@ -1,6 +1,7 @@
 import createInput from './createinput.js';
+import addScore from './addscore.js';
 
-const inputScoreForm = (lbContainer) => {
+const inputScoreForm = (lbContainer, game) => {
   const newSection = document.createElement('section');
   newSection.classList.add('input-section');
   newSection.innerHTML = `
@@ -16,6 +17,7 @@ const inputScoreForm = (lbContainer) => {
   const scoreBtn = document.createElement('button');
   scoreBtn.innerText = 'Submit';
   scoreBtn.classList.add('submit-btn');
+  scoreBtn.addEventListener('click', (e) => { addScore(e, nameInput, scoreInput, game); });
 
   form.append(nameInput, scoreInput, scoreBtn);
   newSection.appendChild(form);
