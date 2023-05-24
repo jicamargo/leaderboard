@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+h2 {
+  display: inline;
+}
+
+.lb-container {
+  display: flex;
+  padding: 2rem;
+  margin: auto;
+}
+
+.scores-section {
+  width: 50%;
+}
+
+.ul-scores {
+  list-style: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
