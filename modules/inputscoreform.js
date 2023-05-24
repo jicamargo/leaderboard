@@ -17,7 +17,7 @@ const inputScoreForm = (lbContainer, game) => {
   const scoreBtn = document.createElement('button');
   scoreBtn.innerText = 'Submit';
   scoreBtn.classList.add('submit-btn');
-  scoreBtn.addEventListener('click', (e) => {addScore(e, nameInput, scoreInput, game);});
+  scoreBtn.addEventListener('click', (e) => { addScore(e, nameInput, scoreInput, game); });
 
   form.append(nameInput, scoreInput, scoreBtn);
   newSection.appendChild(form);
