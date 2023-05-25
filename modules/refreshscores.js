@@ -6,10 +6,10 @@ const refreshScores = async (game) => {
     let html = '';
     scoreListArray.result.forEach((score) => {
       const formattedName = score.user
-      .toLowerCase()
-      .split(' ')
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(' ');
+        .toLowerCase()
+        .split(' ')
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
 
       html += `
         <li>
