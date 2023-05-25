@@ -60,7 +60,6 @@ h2 {
 }
 
 .button:hover {
-  /* Hover effect styles */
   background-color: #333;
   color: #fff;
 }
@@ -83,7 +82,7 @@ h2 {
   padding: 0;
   border: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  max-height: 290px; /* Adjust the height as per your requirement */
+  max-height: 290px;
   overflow-y: auto;
 }
 
@@ -108,8 +107,8 @@ h2 {
   text-align: left;
 }
 
-
 /* styles for input section */
+
 .input-section {
   text-align: center;
   width: 45%;
