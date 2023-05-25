@@ -13,6 +13,7 @@ const scoreList = (lbContainer, game) => {
   lbContainer.appendChild(newSection);
   const refreshBtn = document.getElementById('refreshBtn');
   refreshBtn.addEventListener('click', () => { refreshScores(game); });
+  refreshScores(game);
 };
 
 export default scoreList;
