@@ -2,30 +2,150 @@
   box-sizing: border-box;
 }
 
+/* Reset default browser styles */
+body,
+h1,
+h2,
+ul,
+li,
+button,
+input {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kalam', cursive;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 20px;
   text-align: left;
   padding-left: 1rem;
 }
 
 h2 {
   display: inline;
+  padding-right: 30px;
 }
 
 .lb-container {
   display: flex;
-  padding: 2rem;
+  padding: 20px;
   margin: auto;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  gap: 20px;
 }
+
+.button {
+  padding: 8px 16px;
+  background-color: #454647;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* style for scores section */
 
 .scores-section {
   width: 50%;
 }
 
+.scores-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 .ul-scores {
-  list-style: none;
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 290px;
+  overflow-y: auto;
+}
+
+.ul-scores li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+  margin: 3px;
+}
+
+.ul-scores li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.span-name {
+  flex-basis: 70%;
+  margin-left: 10px;
+}
+
+.span-score {
+  flex-basis: 30%;
+  text-align: left;
+}
+
+/* styles for input section */
+
+.input-section {
+  text-align: center;
+  width: 45%;
+}
+
+.input-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 form {
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+}
+
+.name,
+.score,
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  background-color: #454647;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
 }
