@@ -16,7 +16,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
   - [⭐️ Key Features ](#️-key-features-)
-  - [🔭 Future Features ](#️-future-features-)
   - [🚀 Live Demo](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -62,11 +61,6 @@ LeaderBoard is a web application that utilizes an API to display and track leade
 ## ⭐️ Key Features <a name="key-features"></a> 
 
 - **Minimalistic layout**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🔭 Future Features <a name="future-features"></a> 
-
 - **External API Call**
 - **Preserve the information in API backend**
 
@@ -75,7 +69,7 @@ LeaderBoard is a web application that utilizes an API to display and track leade
 <!-- DEMO LINK -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Comming soom]()
+- [live demo](https://jicamargo.github.io/leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
